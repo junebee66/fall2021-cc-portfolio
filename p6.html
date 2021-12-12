@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>June Bee | Optical Illusion</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>June Bee</h1>
+      <ul>
+        <li>#1 Lost and Found: <a href="p1.html"> Nandini's Pendant</a></li>
+        <li>#2 Face Generator: <a href="p2.html">Faces in Time </a></li>
+        <li>#3 Experimental Clock: <a href="p3.html">Dropping Balls</a></li>
+        <li>#4 Exquisite Corpse: <a href="p4.html">Who?</a></li>
+        <li>#5 Optical Illusion: <a href="p5.html">US & Taiwan</a></li>
+        <li>#6 Digital Portrait: <a href="p6.html">Water & Bathroom</a></li>
+        <li>#7 Autobiographical Game: <a href="p7.html">TOMORROW</a></li>
+        <li>#8 Experimental Camera: <a href="p8.html">Multidimensional Reality Camera</a></li>
+        <li>#9 Consentful Design: <a href="p9.html">Consentful Multidimensional Reality Camera</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #6 Digital Portrait
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://preview.p5js.org/beej976/embed/lnMgKbI5X"
+        ></iframe>
+      </div>
+
+      <div>
+        <h1>
+          Description
+        </h1>
+        <a href="https://editor.p5js.org/beej976/sketches/LVD9U3PjH"
+          >Falling Data(P5.JS Link)</a>
+        
+        <p>
+          I recorded down the data of how many times I drink water and go to the bathroom this week.
+          The ball inital drops representing the times I drink water and in the midway it will stop
+          representing how much water is reatined in my body. When it turns into other color and 
+          complete the second half way of dropping, it means that I go to the bathroom and get rid of the water in my body.
+        </p>
+      </div>
+
+      <!-- 4. reflection -->
+      <div>
+        <h1>
+          Design Process
+        </h1>
+
+        <p>
+          Once again, I didn't sucessfully complete what I initally want it to be. 
+          I made some annotations/comments in my code, so it's easier to understand what didn't go right
+          (inital idea is sketch below)
+        </p>
+        <img class = "fitHoriImg"
+        src="https://cdn.glitch.me/b4417348-acad-4da1-ba75-1cf388b9fc55%2FCC%20Lecture%20Fall%202021-7.jpg?v=1634053034794"
+          />
+        <p>
+          Following is all the different testings I went through. Even though visually they
+          look similiar but all of these sketches are coded in different coding logic. I was trying
+          out which coding logic can actually achieve what I want to do.
+        </p>
+        
+        <h2>
+          <a href="https://editor.p5js.org/beej976/sketches/4VUNe2I_z"
+           >ATTEMPT 1</a>
+        </h2>
+        
+        <p>
+        Initiallly I made these two curves wanting them to be the booundaries where the balls wil hit and bounce; 
+        therefore, I made them into a class and was hoping to write a collison code for the line. 
+        Soon, I realized that making a line an "object" means that every point on the line has to be an object. 
+        In other words, I have to try to define a all the points on a curve line.
+        </p>
+        
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://editor.p5js.org/beej976/sketches/4VUNe2I_z"
+        ></iframe>
+        
+        <h2>
+          <a href="https://editor.p5js.org/beej976/sketches/LVD9U3PjH"
+           >ATTEMPT 2</a>
+        </h2>
+        
+        <p>
+          This time, I was able to make a ball drop, 
+          but couldn't figure out how to set it back to zero when mouse is pressed 
+          and also couldn't figure out how to assign an array of colors to the ball.
+        </p>
+        
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://editor.p5js.org/beej976/sketches/LVD9U3PjH"
+        ></iframe>
+        
+        <h2>
+          <a href="https://editor.p5js.org/beej976/sketches/4VUNe2I_z"
+           >ATTEMPT 3</a>
+        </h2>
+        
+        <p>
+          This time, 
+          I was finally able to assign random colors to the balls; 
+          however, I still coudn't assign it from the color arrays.
+        </p>
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://editor.p5js.org/beej976/sketches/RjZfLniM_5"
+        ></iframe>
+        
+      </div>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+          However,
+          this time due to the collision nature I want between the balls. 
+          I was able to self learn "class" and writing functions in a class. 
+          This really gets me on track of understanding what objects mean and 
+          object interaction mean in js coding.
+      </p>
+    </div>
+  </body>
+</html>
