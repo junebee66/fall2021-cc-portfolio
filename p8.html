@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>June Bee | Multidimentional Reality Camera</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>June Bee</h1>
+      <ul>
+        <li>#1 Lost and Found: <a href="p1.html"> Nandini's Pendant</a></li>
+        <li>#2 Face Generator: <a href="p2.html">Faces in Time </a></li>
+        <li>#3 Experimental Clock: <a href="p3.html">Dropping Balls</a></li>
+        <li>#4 Exquisite Corpse: <a href="p4.html">Who?</a></li>
+        <li>#5 Optical Illusion: <a href="p5.html">US & Taiwan</a></li>
+        <li>#6 Digital Portrait: <a href="p6.html">Water & Bathroom</a></li>
+        <li>#7 Autobiographical Game: <a href="p7.html">TOMORROW</a></li>
+        <li>#8 Experimental Camera: <a href="p8.html">Multidimensional Reality Camera</a></li>
+        <li>#9 Consentful Design: <a href="p9.html">Consentful Multidimensional Reality Camera</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #8 Experimental Camera: Multidimensional Reality Camera
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+<!--         <iframe
+          allow="camera"
+          width="1400px"
+          height="600px"
+          src="https://preview.p5js.org/beej976/embed/mvc5niEAi"
+        ></iframe> -->
+        
+      <img class = "fitVertiImg"
+          src="https://cdn.glitch.me/b4417348-acad-4da1-ba75-1cf388b9fc55%2FIMG_0751.jpg?v=1637081436424"
+        />
+
+        <button class="fullscreen">
+          <a href="https://editor.p5js.org/beej976/full/zGgLIIIVf">
+            <h1>
+              Please Play in Full Screen (and on your phone)
+            </h1>
+          </a>
+        </button>
+        
+        <p>
+        The Camera may take up to one minute to load all the API. Please patiently wait for it...
+        </p>
+        
+      </div>
+
+      <div>
+        <h1>
+          Description
+        </h1>
+
+        <a href="https://editor.p5js.org/beej976/sketches/mvc5niEAi">
+          <h3>
+            Giphy API (P5.JS Link)
+          </h3>
+        </a>
+
+        <p>
+          This one works but only on phones or tablets (because it uses the back camera instead of front camera)
+        </p>
+
+        <a href="https://editor.p5js.org/beej976/sketches/qfg9yHbV2">
+          <h3>
+            Google API (P5.JS Link)
+          </h3>
+        </a>
+
+        <p>
+          This one still doesn't work perfectly and also only works on phones or tablets.
+        </p>
+
+        <h2>
+          The camera detects what is captured and paints out the same object found from web api.
+        </h2>
+
+        <img class = "fitHoriImg"
+          src="https://cdn.glitch.me/b4417348-acad-4da1-ba75-1cf388b9fc55%2FCC%20Lecture%20Fall%202021-12.jpg?v=1637086174634"
+        />
+
+      </div>
+      
+        <h3>
+          "The camera are your eyes that helps you see multidimensional 
+          (real world + virtual world from the extternal api) reality."
+        </h3>
+
+      <!-- 4. reflection -->
+      <div>
+        <h1>
+          Design Concept
+        </h1>
+
+        <h3>
+          What is "this"? | The world we see
+        </h3>
+        
+        <p>
+          You have to admit that we all have already been living in a multidimention reality for a while now.
+          There is the real world, and then there's the internet world which we interact, look, and act 
+          very differently than the real world. The real world can be seen as the "moment" / the "present". 
+          However, the internet world is a huge repository that contains all past events and information.
+          But how do we bring these together?
+        </p>
+        
+        <h3>
+          Is the future a state/phase or a continuous constant| Real world Reality + Virtual World Reality
+        </h3>
+        
+        <p>
+          This camera is created with the intend to draw the vritual world on top of the existing world.
+          For example, if you point your camera at an apple. The camera will be able to identify that it is an apple
+          ,and it will search the api to find an image of apple, then starts drawing that image of apple on top 
+          of this existing apple in the camera. Therefore, you get two versions of an apple. 
+          One is what you see in real life. Another one is the possible apple from the internet. 
+          Having these two visual information linking together, creates this multi-dimention phenomenal.
+          It shows you all the possible apple, connecting your present (real life apple) with the future 
+          (the virutal apple from internet api).
+          
+        </p>
+
+        <h1>
+          Design Process
+        </h1>
+        
+        <h3>
+          Developing the Code | Problems Along the way
+        </h3>
+
+        <h2>
+          <a href="https://editor.p5js.org/beej976/sketches/UJuZnij_R"
+            >ATTEMPT 1 (Front Camera)</a
+          >
+        </h2>
+
+        <p> 
+          The first thing I did is to try out how to make the front camera working 
+          on phones with p5 editor (this sketch will not load on laptops, only on phones).
+        </p>
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://editor.p5js.org/beej976/sketches/UJuZnij_R"
+        ></iframe>
+
+        <h2>
+          <a href="https://editor.p5js.org/junebee66/sketches/SchkAKzDQ"
+            >ATTEMPT 2 (Google API)</a
+          >
+        </h2>
+
+        <p>
+          Then I tried to create a working api fetching function 
+          by registering an api key and search engine ID etc.
+          on google developers website.
+          (API Key: https://developers.google.com/custom-search/json-api/v1/overview)
+          (Search Engine ID: https://cse.google.com/all)
+          By changing the names in the let query = "" variable and run the code, 
+          it will search an image of what the object name you put in.
+          However, with the google api there is a limit of daily fetching; therefore, 
+          in the final code, I change it to the giphy api, which has not fetcing limits.
+        </p>
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://editor.p5js.org/junebee66/sketches/SchkAKzDQ"
+        ></iframe>
+        
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://editor.p5js.org/beej976/sketches/JqoERxfrH"
+        ></iframe>
+
+        <h2>
+          <a href="https://editor.p5js.org/junebee66/sketches/2-y7-Jeim"
+            >ATTEMPT 3 (Object Detection)</a
+          >
+        </h2>
+
+        <p>
+          Then I stumble upon the TensorFlow library COCO (Common 
+          Objects in Context) which is a long-used machine-learning 
+          model sponsored by Microsoft and Facebook. 
+          By watching "Object Detection – Webcam Tracking in p5.js/TensorFlow" by Jeff Thompson
+          (https://www.youtube.com/watch?v=WPOY2IEqUMg), I made a working code that are able to
+          identify objects in cameras.
+
+        </p>
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="600px"
+          src="https://editor.p5js.org/junebee66/sketches/2-y7-Jeim"
+        ></iframe>
+        
+        <p>
+          Then in my final project, I just combine these features together. 
+          However, the drawing functions keeps messing up with the detection fucntion.
+          I am trying to make them into two functions that only activates when buttons are pressed
+          so they don't affect each other, but with the time limit I didn't fully get it working.
+        </p>
+        
+        
+        
+      </div>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        I feel like in this semester. I have already done projects using the ideas of pixels 
+        (face generator, exquisite corpse, tomorrow game...etc.). So, this time, 
+        I was really digging deaeper and thinking about how do we interpret what we see in the camera.
+        If all of these pixels come together has different meanings, and I absolutely enjoy practicing out coding in this way.
+        I wish this can be something that I continuely develop and really get it to work!
+      </p>
+    </div>
+  </body>
+</html>
